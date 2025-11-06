@@ -9,7 +9,7 @@ Motivated Full-Stack Developer in training with a strong academic foundation in 
 ## 🧠 About Me
 - Computer Science student at CSU Fullerton focused on **full-stack development** and **cloud computing**  
 - Strong foundation in **software engineering principles**, **data structures**, and **modern web technologies**  
-- Building [**Buck-et List Brands**](https://github.com/ndulkis/Buck-et-List) — a **clothing brand website** designed and developed from the ground up using **React**, **Node.js**, and **AWS**  
+- Building [**Buck-et List Brands**](https://github.com/ndulkis/buck-et_list_brands) — a **clothing brand website** designed and developed from the ground up using **React**, **Node.js**, and **AWS**  
 - Experienced with **responsive front-end design**, **API integration**, and **secure authentication workflows**  
 - Passionate about creating **clean, scalable, and impactful digital experiences** that merge technology with creativity
 
@@ -33,7 +33,7 @@ Git | GitHub | Figma | Postman | VS Code | Agile Development
 
 ## Featured Projects
 
-### [Buck-et List Brands](https://github.com/ndulkis/Buck-et-List)
+### [Buck-et List Brands](https://github.com/ndulkis/buck-et_list_brands)
 Full-stack e-commerce web application for a clothing brand, built from the ground up with **React**, **Node.js**, and **AWS Cloud**.  Implements **responsive UI design**, **secure authentication**, and **dynamic product management** using for scalability and performance.
 
 

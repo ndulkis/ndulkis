@@ -1,54 +1,79 @@
 # Nathan Dulkis
 
-**Full-Stack Developer | Cloud Infrastructure | AI-Augmented Development**
+**Full-Stack Developer | CS Senior @ CSU Fullerton**
 
-CS student at CSU Fullerton building production ready web applications with modern frameworks and cloud infrastructure. Experienced in shipping full stack projects using React, Next.js, Node.js, and AWS serverless architecture. Focused on rapid development cycles, scalable system design, and leveraging AI tools to accelerate delivery while maintaining code quality.
+CS senior at California State University, Fullerton (graduating Dec 2026), shipping production web apps across the stack. Currently a Web Development Intern at Hounder, maintaining and shipping features across 10+ client sites on WordPress, Drupal, and Laravel. Outside of work, I'm building a Next.js 14 e-commerce platform with Stripe-hosted checkout, Postgres-backed admin tooling, and Vercel deployment.
 
-Currently building: [**Buck-et List Brands**](https://github.com/ndulkis/buck-et_list_brands) — full-stack e-commerce platform with serverless architecture, PostgreSQL database, and secure payment processing.
+- **Location:** Corona, CA
+- **Portfolio:** [nathandulkis.dev](https://nathandulkis.dev)
+- **Email:** [ndulkis@gmail.com](mailto:ndulkis@gmail.com)
+- **LinkedIn:** [linkedin.com/in/nathandulkis](https://linkedin.com/in/nathandulkis)
 
 ---
 
 ## What I'm Building
 
-### [Buck-et List Brands](https://github.com/ndulkis/buck-et_list_brands) — E-Commerce Platform (In Progress)
-**Tech:** Next.js 14, TypeScript, Neon (PostgreSQL), Prisma ORM, AWS Amplify, Stripe API, Resend, Tailwind CSS
+### [Buck-et List Brands](https://github.com/ndulkis/buck-etlistbrands) — E-Commerce Platform (In Progress)
+**Tech:** Next.js 14 (App Router, Server Actions) · TypeScript · PostgreSQL (Neon) · Prisma · Stripe · Vercel · Resend · Auth.js · Sentry · Playwright
 
-**What it does:**
-- Full stack e-commerce platform with real time inventory management and variant tracking (size/color)
-- Hybrid cloud architecture using AWS Amplify hosting + Neon serverless PostgreSQL (optimized for free tier)
-- Secure payment processing with Stripe Payment Intents and webhook based order fulfillment
-- Guest checkout support with NextAuth.js authentication for returning customers
-- Atomic database transactions preventing race conditions during concurrent purchases
+Production storefront for a hunting/outdoorsman apparel brand. Solo build at zero fixed infra cost.
 
-**Why it matters:** Built to demonstrate production grade architecture with real world constraints inventory management, payment processing, webhook reliability, and database consistency under concurrent load. 
+- Faceted catalog search, Stripe-hosted checkout (SAQ A PCI scope), idempotent webhook-driven order and inventory state machines on Neon Postgres.
+- Argon2id auth with TOTP 2FA for admins, Zod validation at every server-action boundary, app-layer PII encryption.
+- Immutable order-item price snapshots, append-only inventory audit log, Sentry + Playwright E2E gating every deploy.
 
-**Technical highlights:**
-- Prisma transactions ensuring order creation and stock decrements happen atomically
-- Server-side inventory validation 
-- Webhook handler with idempotency for reliable payment processing
+### [Blackjack Tutor](https://github.com/ndulkis/blackjack-tutor) — Python · PyGame · pytest · Ruff
+PyGame blackjack trainer that evaluates every player decision against mathematically correct basic strategy in real time, with accuracy tracking and rule-based coaching. Full 6-deck engine — splits, doubles, surrender, insurance — backed by **682 tests at 96% coverage**; CI runs the full suite in **0.27s**. Built with Joon Rho for CPSC 481.
 
----
+### [PokeGuess](https://github.com/ndulkis/poke-guess) — React 19 · Vite · Tailwind v4 · React Router v7
+Pokémon identification game covering all **1,028** species, with silhouette rendering and progressive clue reveal. Deployed to Vercel. Built with Eric Morales for CPSC 349.
 
-##  Tech Stack
-
-**Languages & Frameworks**  
-JavaScript/TypeScript | React | Next.js 14 | Node.js | Python | HTML5 | CSS3
-
-**Cloud & Infrastructure**  
-AWS (Amplify, Route 53, CloudFront) | Neon (Serverless PostgreSQL) | Vercel | Firebase
-
-**Database & ORMs**  
-PostgreSQL | Prisma | SQL/NoSQL
-
-**Tools & Libraries**  
-Git/GitHub | Tailwind CSS | React Query | Framer Motion | Stripe API | NextAuth.js | Resend | REST APIs | CI/CD
-
-**Development Workflow**  
-AI-assisted development (Claude API/CLI, GitHub Copilot) | Rapid prototyping | Test-driven development | Agile methodologies
+### [Portfolio](https://github.com/ndulkis/portfolio) — Next.js 15 · TypeScript · Tailwind v4
+Personal site at [nathandulkis.dev](https://nathandulkis.dev), built on Next.js 15 (App Router) with Vitest component tests.
 
 ---
 
-##  Contribution Activity
+## Tech Stack
+
+**Languages**
+TypeScript · JavaScript · Python · PHP · SQL · HTML · CSS
+
+**Frontend**
+React · Next.js · Vite · Tailwind CSS · React Router
+
+**Backend**
+Node.js · Express · Laravel · WordPress · Drupal · REST APIs · Auth.js
+
+**Data**
+PostgreSQL (Neon) · Prisma
+
+**Infra**
+Vercel · Stripe · Resend · Sentry
+
+**Tooling**
+Vitest · Playwright · pytest · Ruff · Lighthouse · Git
+
+---
+
+## Experience
+
+**Web Development Intern** — Hounder, Redlands, CA *(Apr 2026 – Present)*
+Shipping features and bug fixes across 10+ client sites on WordPress, Drupal, and Laravel — custom PHP modules, theme work, and server-side integrations. Contributed to a WordPress → Drupal migration with post-migration QA and smoke testing. Remediated accessibility issues on 5+ sites flagged by Lighthouse audits, improving average accessibility scores by 20+ points.
+
+**GSO Trainer / Attractions Operator** — Disneyland Resort, Anaheim, CA *(Oct 2024 – Present)*
+Train 10+ team members daily on safety protocols and crowd-management procedures for parades and nightly fireworks. Coordinate with security, custodial, and entertainment teams for 5,000+ guests per shift.
+
+---
+
+## Education
+
+**B.S. Computer Science** — California State University, Fullerton *(Aug 2024 – Dec 2026)*
+  
+**A.S. Computer Science** — Riverside City College *(Jun 2024)*
+
+---
+
+## Contribution Activity
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=ndulkis&show_icons=true&theme=tokyonight&hide=contribs)
 
@@ -56,25 +81,10 @@ AI-assisted development (Claude API/CLI, GitHub Copilot) | Rapid prototyping | T
 
 ---
 
-##  Currently Learning
+## Let's Connect
 
-- Advanced AWS architecture patterns (currently studying for AWS Cloud Practitioner certification - Expected Jan 2025)
-- System design for scalable web applications and handling concurrent transactions
-- Database optimization and query performance with Prisma ORM
-- Webhook reliability patterns and payment processing best practices
-- Modern authentication flows with NextAuth.js and OAuth providers
+Open to full-stack engineering roles, internships, and new-grad positions.
 
----
-
-##  Let's Connect
-
-I'm actively seeking **full-stack engineering roles**, **software engineering internships**, and **new grad positions** where I can contribute to production systems and continue growing as a developer.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/nathan-dulkis-0011a335b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/nathandulkis)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ndulkis@gmail.com)
-
----
-
-**Open to:** Full-time roles | Internships | New grad positions | Contract work | Open source collaboration
-
-**Location:** Corona, CA | **Graduation:** June 2026 | **Visa Status:** US Citizen
+[![Portfolio](https://img.shields.io/badge/Portfolio-1A2E4A?style=flat&logo=vercel&logoColor=white)](https://nathandulkis.dev)

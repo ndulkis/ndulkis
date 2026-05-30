@@ -57,10 +57,10 @@ Vitest · Playwright · pytest · Ruff · Lighthouse · Git
 
 ## Experience
 
-**Web Development Intern** — Hounder, Redlands, CA *(Apr 2026 – Present)*
+**Web Development Intern** — Hounder, Redlands, CA  *(Apr 2026 – Present)*  
 Shipping features and bug fixes across 10+ client sites on WordPress, Drupal, and Laravel — custom PHP modules, theme work, and server-side integrations. Contributed to a WordPress → Drupal migration with post-migration QA and smoke testing. Remediated accessibility issues on 5+ sites flagged by Lighthouse audits, improving average accessibility scores by 20+ points.
 
-**GSO Trainer / Attractions Operator** — Disneyland Resort, Anaheim, CA *(Oct 2024 – Present)*
+**GSO Trainer / Attractions Operator** — Disneyland Resort, Anaheim, CA *(Oct 2024 – Present)*  
 Train 10+ team members daily on safety protocols and crowd-management procedures for parades and nightly fireworks. Coordinate with security, custodial, and entertainment teams for 5,000+ guests per shift.
 
 ---
@@ -70,14 +70,6 @@ Train 10+ team members daily on safety protocols and crowd-management procedures
 **B.S. Computer Science** — California State University, Fullerton *(Aug 2024 – Dec 2026)*
   
 **A.S. Computer Science** — Riverside City College *(Jun 2024)*
-
----
-
-## Contribution Activity
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ndulkis&show_icons=true&theme=tokyonight&hide=contribs)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ndulkis&layout=compact&theme=tokyonight)
 
 ---
 
